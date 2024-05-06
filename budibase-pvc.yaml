@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: budibase-pvc
+spec:
+  accessModes:
+    - ReadWriteMany
+  storageClassName: budibase-sc
+  resources:
+    requests:
+      storage: 100Gi

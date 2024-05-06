@@ -1,0 +1,11 @@
+#couchdb:
+#  persistentVolume:
+#    enabled: true
+#    storageClass: "budibase-sc"
+#  adminPassword: admin 
+    
+services:
+  objectStore:
+    storageClass: "budibase-sc"
+  redis:
+    storageClass: "budibase-sc"
